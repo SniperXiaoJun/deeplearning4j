@@ -40,8 +40,8 @@ public class LargeSerDeTests extends BaseNd4jTest {
 
     @Test
     public void testLargeArraySerDe_1() throws Exception {
-        val arrayA = Nd4j.rand(new long[] {1, 135079944});
-        //val arrayA = Nd4j.rand(new long[] {1, 13507});
+//        val arrayA = Nd4j.rand(new long[] {1, 135079944});
+        val arrayA = Nd4j.rand(new long[] {1, 13507});
 
         val tmpFile = File.createTempFile("sdsds", "sdsd");
         tmpFile.deleteOnExit();
