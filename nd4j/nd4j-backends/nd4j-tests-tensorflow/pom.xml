@@ -260,13 +260,12 @@
                                 <org.nd4j.linalg.tests.backendstorun>org.nd4j.linalg.cpu.nativecpu.CpuBackend</org.nd4j.linalg.tests.backendstorun>
                             </systemPropertyVariables>
                             <!--
-                                        Maximum heap size was set to 6g, as a minimum required value for tests run.
-                                        Depending on a build machine, default value is not always enough.
-                                    -->
+                                Maximum heap size was set to 6g, as a minimum required value for tests run.
+                                Depending on a build machine, default value is not always enough.
+                            -->
                             <argLine>-Xmx6g</argLine>
                             <skipTests>false</skipTests>
                             <skip>false</skip>
-
                         </configuration>
                     </plugin>
                 </plugins>
